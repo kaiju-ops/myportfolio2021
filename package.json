@@ -1,0 +1,33 @@
+{
+  "name": "charlie2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@dogstudio/highway": "^2.2.1",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "assets": "^3.0.1",
+    "cursor": "^0.1.5",
+    "font-awesome-animation": "^1.1.1",
+    "gsap": "^3.6.0",
+    "gulp-insert": "^0.5.0",
+    "highway": "0.0.5",
+    "imagesloaded": "^4.1.4",
+    "js": "^0.1.0",
+    "locomotive-scroll": "^4.0.6",
+    "path": "^0.12.7",
+    "splitting": "^1.0.6",
+    "transition": "^0.1.1",
+    "utils": "^0.3.1"
+  }
+}
